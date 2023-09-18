@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.img-site{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background: linear-gradient(to left, rgb(103, 103, 190),rgb(206, 133, 145) ) ;
+    width: 67%;
+    height: 100vh;
+}
+.form-site{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:33%;
+    height: 100vh;
+}
+.form-site form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+.email input{
+    margin-top: 100px;
+    border: none;
+    border-bottom: 1px solid;
+    width: 320px;
+    margin-bottom: 25px;  
+}
+.next{
+    background-color: #0074ab;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+.create button a{
+    background-color: transparent;
+    color: #0074ab;
+    border-color: #0074ab;
+}
+.form-site h2{
+    margin-top: 40px;
+}
+.form-site form button {
+    width: 320px;
+    height: 40px;
+}
+.box input{
+    margin-top: 70px;
+}
+
+.img-site{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   color: aliceblue;
+}
+img{
+    font-size: 100px;
+}
+h1{
+    margin-top: 30px;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.google button img a{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
